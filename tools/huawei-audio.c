@@ -506,7 +506,7 @@ static void create_modem(DBusConnection *conn,
 
 	modem->format = AFMT_S16_LE;
 	modem->channels = 1;
-	modem->speed = 8000;
+	modem->speed = 16000;
 	modem->dsp_out = -1;
 
 	modem->call_list = g_hash_table_new_full(g_str_hash, g_str_equal,
